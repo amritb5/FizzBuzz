@@ -13,7 +13,7 @@ class FizzBuzz {
         }
     }
 
-    private static int getCount(int count) {
+    public static int getCount(int count) {
 
         // Find out which numbers divide i.
         boolean divisibleBy3 = count % 3 == 0;
